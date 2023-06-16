@@ -1,0 +1,40 @@
+#startbutton{
+    border-radius: 15px;
+    width: 15%;
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#footer {
+    /* Add position:fixed  width: 100%   bottom: 0*/
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: lightgray;
+    font-size: 15px;
+    padding: 7px;
+ }
+
+ #camera{
+    width: 520px;
+    height: 400px;
+    border-style:solid;
+    border-width: 2.5px;
+    border-color: maroon;
+ }
+
+ #img1,#img2,#img3{
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+ }
+
+ img:hover{
+    border-radius: 90px;
+ }
